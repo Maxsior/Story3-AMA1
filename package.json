@@ -1,0 +1,15 @@
+{
+  "name": "story3-ama1",
+  "version": "1.0.0",
+  "description": "Demo project for AMA session about Story3 API",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
