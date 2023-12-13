@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Demo project for AMA session about Story3 API",
   "main": "main.js",
-  "scripts": {
-    "start": "node main.js"
-  },
+  "type": "module",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
