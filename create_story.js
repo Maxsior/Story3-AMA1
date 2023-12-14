@@ -1,4 +1,7 @@
 import axios from 'axios';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 /*** data ***/
 
@@ -101,7 +104,7 @@ async function main() {
         'https://story3.com/api/v2/twists',
         {
             ...twist31,
-            "hashParentId": twist1res.data.hashId
+            "hashParentId": twist3res.data.hashId
         },
         {
             headers: {
